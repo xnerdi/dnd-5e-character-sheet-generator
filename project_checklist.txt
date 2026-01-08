@@ -2,9 +2,9 @@
 
 ## Backend (Python)
 [X] Set up Python virtual environment
-[ ] Initialize Git repository
-[ ] Create requirements.txt for dependencies
-[ ] Set up basic Flask/FastAPI server
+[X] Initialize Git repository
+[X] Create requirements.txt for dependencies
+[X] Set up basic Flask/FastAPI server
 [ ] Define API endpoints
 [ ] Set up database (if needed)
 [ ] Implement authentication (if needed)

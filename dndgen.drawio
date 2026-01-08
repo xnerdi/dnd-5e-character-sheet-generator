@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="YJQY_4a0n258rych5_Ff">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="Start" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-2" edge="1" parent="1" source="1FZIA8dg3Nu2-ALiG_li-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="100" as="sourcePoint" />
+            <mxPoint x="80" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-13" edge="1" parent="1" source="1FZIA8dg3Nu2-ALiG_li-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1FZIA8dg3Nu2-ALiG_li-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Input name" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="79.5" y="180" as="sourcePoint" />
+            <mxPoint x="79.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Decide or generate&lt;div&gt;species&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="79.5" y="320" as="sourcePoint" />
+            <mxPoint x="79.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-7" edge="1" parent="1" source="1FZIA8dg3Nu2-ALiG_li-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="290" as="sourcePoint" />
+            <mxPoint x="180" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="Randomly assign&lt;div&gt;species and inform user&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="100" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Decide" vertex="1">
+          <mxGeometry height="30" width="60" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Generate" vertex="1">
+          <mxGeometry height="30" width="60" x="20" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="List species options" vertex="1">
+          <mxGeometry height="60" width="100" x="180" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-14" edge="1" parent="1" source="1FZIA8dg3Nu2-ALiG_li-11" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="270" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1FZIA8dg3Nu2-ALiG_li-16" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="" vertex="1">
+          <mxGeometry height="60" width="100" x="320" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
